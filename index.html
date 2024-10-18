@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        .header {
+            background-color: #5a3d2b;
+            color: white;
+            padding: 20px;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 2rem;
+        }
+        .profile-section {
+            background-color: #f7f3ee;
+            padding: 40px;
+        }
+        .profile-section img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;  /* Ensures the image keeps its aspect ratio */
+}
+        .profile-section h2 {
+            margin-top: 15px;
+            font-size: 2rem;
+            color: #333;
+        }
+        .profile-section p {
+            font-size: 1.2rem;
+            color: #666;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            padding: 40px;
+            background-color: #e0d7ce;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+        .project-title {
+            background-color: #5a3d2b;
+            color: white;
+            padding: 10px;
+            margin-top: -10px;
+            font-size: 1rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>My E-Portfolio In Media Information Literacy</h1>
+    </div>
+    <div class="profile-section">
+        <img src="images/lancearmenta.jpg" alt="Mark Lance Armenta ID">
+        <h2>Mark Lance L. Armenta</h2>
+        <p>12-Tolerance</p>
+    </div>
+
+    <div class="gallery">
+        <!-- First Row of Projects -->
+        <div>
+            <img src="images/project1.jpg" alt="Project 1">
+            <div class="project-title">Project 1</div>
+        </div>
+        <div>
+            <img src="images/project2.jpg" alt="Project 2">
+            <div class="project-title">Project 2</div>
+        </div>
+        <div>
+            <img src="images/project3.jpg" alt="Project 3">
+            <div class="project-title">Project 3</div>
+        </div>
+
+        <!-- Second Row of Projects -->
+        <div>
+            <img src="images/project4.jpg" alt="Project 4">
+            <div class="project-title">Project 4</div>
+        </div>
+        <div>
+            <img src="images/project5.jpg" alt="Project 5">
+            <div class="project-title">Project 5</div>
+        </div>
+        <div>
+            <img src="images/project6.jpg" alt="Project 6">
+            <div class="project-title">Project 6</div>
+        </div>
+
+        <!-- Third Row of Projects -->
+        <div>
+            <img src="images/project7.jpg" alt="Project 7">
+            <div class="project-title">Project 7</div>
+        </div>
+        <div>
+            <img src="images/project8.jpg" alt="Project 8">
+            <div class="project-title">Project 8</div>
+        </div>
+        <div>
+            <img src="images/project9.jpg" alt="Project 9">
+            <div class="project-title">Project 9</div>
+        </div>
+    </div>
+
+</body>
+</html>
